@@ -1,0 +1,14 @@
+2024-08-08T08:19:28.720Z [info]: Login successful for user: johndoe
+2024-08-08T08:22:37.226Z [error]: Login failed: secretOrPrivateKey must have a value
+2024-08-08T08:23:19.944Z [error]: Login failed: secretOrPrivateKey must have a value
+2024-08-08T08:23:31.540Z [error]: Login failed: secretOrPrivateKey must have a value
+2024-08-08T08:23:38.377Z [error]: Login failed: secretOrPrivateKey must have a value
+2024-08-08T08:23:46.983Z [error]: Login failed: secretOrPrivateKey must have a value
+2024-08-08T08:23:53.977Z [error]: Login failed: secretOrPrivateKey must have a value
+2024-08-08T08:24:09.586Z [info]: Login successful for user: johndoe
+2024-08-08T08:24:45.265Z [error]: Login failed: secretOrPrivateKey must have a value
+2024-08-08T08:26:40.226Z [error]: Login failed: secretOrPrivateKey must have a value
+2024-08-08T09:56:06.487Z [error]: Failed to fetch user: User not found
+2024-08-08T09:56:43.796Z [error]: Failed to fetch user: User not found
+2024-08-08T09:56:51.628Z [error]: Failed to fetch user: User not found
+2024-08-08T09:58:21.847Z [error]: Username or email already exists.
