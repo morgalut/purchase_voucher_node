@@ -2,7 +2,7 @@
 
 ### `README.md`
 
-```markdown
+
 # Vouchers Purchase System
 
 This project is a REST API-based system for managing the purchase of vouchers. The system allows users to register, log in, purchase vouchers, and view their purchased vouchers. The system distinguishes between regular users and administrative users, with administrative users having additional capabilities, such as creating new vouchers.
