@@ -121,7 +121,7 @@ This endpoint allows a user to purchase a voucher if they have sufficient balanc
 
 To containerize the application using Docker, follow these steps:
 
-### Create a `Dockerfile`
+### `Dockerfile`
 
 ```dockerfile
 # Use an official Node.js runtime as a parent image
