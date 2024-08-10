@@ -146,3 +146,10 @@
 2024-08-10T06:08:28.102Z [error]: User creation failed: Invalid user type "manager".
 2024-08-10T06:10:06.353Z [error]: User creation failed due to server error: User validation failed: userType: Path `userType` is required.
 2024-08-10T06:11:06.972Z [error]: User creation failed due to server error: User validation failed: userType: Path `userType` is required.
+2024-08-10T06:12:55.461Z [info]: User created successfully: {"username":"mor","email":"Morgalut54@gmail.com","password":"$2b$10$MGrl5KuhT5fX0APDH18FmeFOte1FU/wD2ekUlW13sNU8KAceBfq5W","userType":"manager","_id":"66b704e7d7aa00a5400d0d6d","createdAt":"2024-08-10T06:12:55.456Z","updatedAt":"2024-08-10T06:12:55.456Z","__v":0}
+2024-08-10T06:13:18.509Z [info]: User mor logged in successfully
+2024-08-10T06:13:33.544Z [info]: All users fetched successfully.
+2024-08-10T06:13:33.559Z [info]: All users fetched successfully.
+2024-08-10T06:13:45.394Z [info]: User balance updated successfully: {"_id":"66b704e7d7aa00a5400d0d6d","username":"mor","email":"Morgalut54@gmail.com","password":"$2b$10$MGrl5KuhT5fX0APDH18FmeFOte1FU/wD2ekUlW13sNU8KAceBfq5W","userType":"manager","createdAt":"2024-08-10T06:12:55.456Z","updatedAt":"2024-08-10T06:12:55.456Z","__v":0}
+2024-08-10T06:13:45.411Z [info]: All users fetched successfully.
+2024-08-10T06:14:05.179Z [info]: User mor logged in successfully
