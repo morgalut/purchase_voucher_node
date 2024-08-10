@@ -153,3 +153,82 @@
 2024-08-10T06:13:45.394Z [info]: User balance updated successfully: {"_id":"66b704e7d7aa00a5400d0d6d","username":"mor","email":"Morgalut54@gmail.com","password":"$2b$10$MGrl5KuhT5fX0APDH18FmeFOte1FU/wD2ekUlW13sNU8KAceBfq5W","userType":"manager","createdAt":"2024-08-10T06:12:55.456Z","updatedAt":"2024-08-10T06:12:55.456Z","__v":0}
 2024-08-10T06:13:45.411Z [info]: All users fetched successfully.
 2024-08-10T06:14:05.179Z [info]: User mor logged in successfully
+2024-08-10T06:20:01.637Z [error]: User creation failed due to server error: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T06:20:31.004Z [error]: User creation failed due to server error: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T06:20:34.330Z [error]: User creation failed due to server error: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T06:21:23.875Z [info]: User mor logged in successfully
+2024-08-10T06:24:11.607Z [error]: User creation failed due to server error: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T06:24:29.730Z [error]: User creation failed due to server error: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T06:24:51.161Z [error]: User creation failed due to server error: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T06:25:17.297Z [error]: User creation failed due to server error: Username or email already exists
+2024-08-10T06:25:22.537Z [error]: User creation failed due to server error: Username or email already exists
+2024-08-10T06:26:23.093Z [error]: User creation failed due to server error: Username or email already exists
+2024-08-10T06:28:08.842Z [error]: User creation failed due to server error: Username or email already exists
+2024-08-10T06:31:50.927Z [error]: User creation failed due to server error: Username or email already exists
+2024-08-10T06:32:16.816Z [info]: User created successfully: {"username":"as","email":"as@md.com","password":"$2b$10$JmA.oKKmeYlplSm42cs05uUXK8BNPYHVBH5JwIHaif5qeM9kFcJ86","userType":"regular","_id":"66b70970a21349eafa708150","createdAt":"2024-08-10T06:32:16.813Z","updatedAt":"2024-08-10T06:32:16.813Z","__v":0}
+2024-08-10T06:32:20.574Z [error]: User creation failed: Username or email already exists.
+2024-08-10T06:32:37.023Z [error]: User creation failed due to server error: Username or email already exists
+2024-08-10T06:32:41.750Z [error]: User creation failed due to server error: Username or email already exists
+2024-08-10T06:42:35.241Z [error]: User creation failed due to server error: Username or email already exists
+2024-08-10T06:44:06.254Z [error]: User creation failed due to server error: Username or email already exists
+2024-08-10T06:46:19.858Z [error]: User creation failed due to server error: Username or email already exists
+2024-08-10T06:47:01.105Z [error]: User creation failed due to server error: Username or email already exists
+2024-08-10T06:50:38.577Z [error]: User creation failed due to server error: Username or email already exists
+2024-08-10T06:51:07.944Z [error]: User creation failed due to server error: Username or email already exists
+2024-08-10T06:51:11.380Z [error]: User creation failed due to server error: Username or email already exists
+2024-08-10T06:51:22.689Z [info]: User created successfully: {"username":"Mor","email":"asss@md.com","password":"$2b$10$.mWp0gArCGkNQ9F3moCyd.LXy0dNfk8OX8fNYeVUjjcUblmpVxyO.","userType":"manager","_id":"66b70dea9bc20392a101d1a1","createdAt":"2024-08-10T06:51:22.687Z","updatedAt":"2024-08-10T06:51:22.687Z","__v":0}
+2024-08-10T06:51:40.448Z [warn]: Invalid username/email or password
+2024-08-10T06:51:57.295Z [info]: User Mor logged in successfully
+2024-08-10T07:04:08.333Z [info]: User Mor logged in successfully
+2024-08-10T07:04:17.977Z [info]: All users fetched successfully.
+2024-08-10T07:04:17.987Z [info]: All users fetched successfully.
+2024-08-10T07:04:20.923Z [info]: All users fetched successfully.
+2024-08-10T07:04:20.936Z [info]: All users fetched successfully.
+2024-08-10T07:59:59.453Z [error]: User creation failed due to server error: Username or email already exists
+2024-08-10T08:08:42.979Z [info]: User created successfully: {"username":"mor","email":"Morgalut54@gmail.com","password":"$2b$10$ixim/YneuHgfx0I7eTyoFuHQMptpgpOvoS3J0B6ImDBwRRZWqs0ya","userType":"manager","_id":"66b7200a87fa9b34f16d07c3","createdAt":"2024-08-10T08:08:42.971Z","updatedAt":"2024-08-10T08:08:42.971Z","__v":0}
+2024-08-10T08:08:53.127Z [error]: User creation failed due to server error: Username or email already exists
+2024-08-10T08:10:52.350Z [error]: User creation failed due to server error: Username or email already exists
+2024-08-10T08:14:07.759Z [error]: User creation failed due to server error: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T08:15:13.452Z [info]: User created successfully: {"username":"zxc","email":"zxc@gmail.com","password":"$2b$10$V5Gj.nEhCQ.OGeEBviO7lO1T0PDyS6J1SFGql5ZnWepQiKp5JPh/y","userType":"regular","_id":"66b72191eb498edec49fdc4c","createdAt":"2024-08-10T08:15:13.447Z","updatedAt":"2024-08-10T08:15:13.447Z","__v":0}
+2024-08-10T08:17:40.366Z [error]: User creation failed due to server error: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T08:22:41.027Z [error]: User creation failed due to server error: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T08:22:48.498Z [error]: User creation failed due to server error: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T09:55:31.297Z [error]: User creation failed due to server error: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T10:05:48.092Z [error]: User creation failed due to server error: User creation failed: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T10:08:38.954Z [error]: User creation failed due to server error: User creation failed: All fields are required
+2024-08-10T10:08:57.290Z [error]: User creation failed due to server error: User creation failed: All fields are required
+2024-08-10T10:09:23.967Z [error]: User creation failed due to server error: User creation failed: All fields are required
+2024-08-10T10:14:18.682Z [error]: User creation failed due to server error: User creation failed: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T10:14:39.420Z [error]: User creation failed due to server error: User creation failed: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T10:52:17.808Z [error]: User creation failed due to server error: User creation failed: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T10:52:26.048Z [error]: User creation failed due to server error: User creation failed: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T10:52:30.881Z [error]: User creation failed due to server error: User creation failed: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T10:56:27.009Z [error]: User creation failed due to server error: Username or email already exists
+2024-08-10T10:58:21.301Z [error]: User creation failed due to server error: Username or email already exists
+2024-08-10T11:00:42.145Z [error]: User creation failed: Username or email already exists
+2024-08-10T11:01:01.216Z [error]: User creation failed: Username or email already exists
+2024-08-10T11:01:06.742Z [error]: User creation failed: Username or email already exists
+2024-08-10T11:01:16.796Z [error]: User creation failed: Username or email already exists
+2024-08-10T11:01:25.804Z [error]: User creation failed: Username or email already exists
+2024-08-10T11:01:31.993Z [error]: User creation failed: Username or email already exists
+2024-08-10T11:01:34.875Z [error]: User creation failed: Username or email already exists
+2024-08-10T11:08:11.928Z [error]: User creation failed: Username or email already exists
+2024-08-10T11:08:31.650Z [info]: User created successfully: {"username":"dw","email":"dsa@mro.COM","password":"$2b$10$bgKSPwhKW0prOLBmBYVIK.n2u1.TI3PwBc.SCild8nFGfGn.JswTi","userType":"manager","_id":"66b74a2f4f6c292c46f4de18","createdAt":"2024-08-10T11:08:31.646Z","updatedAt":"2024-08-10T11:08:31.646Z","__v":0}
+2024-08-10T11:08:53.864Z [error]: User creation failed: Username or email already exists
+2024-08-10T11:11:11.697Z [error]: User creation failed: Username or email already exists
+2024-08-10T11:13:43.998Z [error]: User creation failed: Username or email already exists
+2024-08-10T11:13:46.768Z [error]: User creation failed: Username or email already exists
+2024-08-10T11:20:46.449Z [error]: User creation failed: Username or email already exists
+2024-08-10T11:27:45.134Z [error]: User creation failed: User creation failed: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T11:28:50.997Z [info]: User created successfully: undefined
+2024-08-10T11:29:09.672Z [info]: User created successfully: undefined
+2024-08-10T11:31:23.692Z [error]: User creation failed: User creation failed due to a duplicate key: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T11:31:35.825Z [error]: User creation failed: User creation failed due to a duplicate key: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T11:31:37.540Z [error]: User creation failed: User creation failed due to a duplicate key: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T11:31:37.881Z [error]: User creation failed: User creation failed due to a duplicate key: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T11:31:38.047Z [error]: User creation failed: User creation failed due to a duplicate key: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T11:31:46.505Z [info]: User created successfully: {"username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$E2KKGWVF//WLjoAxwlRr1u1B/Fcoxi6reMXsuxSSBMbP581yTuSru","userType":"regular","_id":"66b74fa2885df4a0af07a72d","createdAt":"2024-08-10T11:31:46.503Z","updatedAt":"2024-08-10T11:31:46.503Z","__v":0}
+2024-08-10T11:32:05.002Z [info]: User created successfully: {"username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$XKq9HlIUtczFCrDy4lfXYOTQJp2vH2XwoDzZrjpVN.8iHglKQgQC6","userType":"manager","_id":"66b74fb5885df4a0af07a72f","createdAt":"2024-08-10T11:32:05.000Z","updatedAt":"2024-08-10T11:32:05.000Z","__v":0}
+2024-08-10T11:32:20.702Z [error]: User creation failed: User creation failed due to a duplicate key: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T11:41:00.846Z [error]: User creation failed: User creation failed due to a duplicate key: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T11:50:46.458Z [error]: User creation failed: User creation failed due to a duplicate key: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }

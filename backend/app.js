@@ -23,22 +23,7 @@ app.use(express.json());
 app.use('/users', userRoutes);
 app.use('/vouchers', voucherRoutes);
 app.use('/purchase', purchaseRoutes);
-app.get('/users/check-token', (req, res) => {
-  const token = req.headers.authorization.split(' ')[1]; // Get the token from the header
 
-  if (!token) {
-      return res.status(401).json({ error: 'No token provided' });
-  }
-
-  jwt.verify(token, 'your_jwt_secret', (err, decoded) => {
-      if (err) {
-          return res.status(401).json({ error: 'Invalid token' });
-      }
-
-      // Token is valid
-      res.status(200).json({ message: 'Token is valid' });
-  });
-});
 // Start the server
 const PORT = process.env.PORT || 3002;
 app.listen(PORT, () => {

@@ -7,21 +7,37 @@ const RegisterPage = () => {
     const [password, setPassword] = useState("");
     const [userType, setUserType] = useState("regular");
     const [error, setError] = useState("");
+    const [success, setSuccess] = useState("");
 
     const handleRegister = async (e) => {
         e.preventDefault();
+        setError("");
+        setSuccess("");
+        
+        // Input validation
+        if (!username.trim() || !email.trim() || !password || !userType) {
+            setError("All fields are required.");
+            return;
+        }
+
         try {
-            const response = await axios.post("http://localhost:3002/users", {
-                username,
-                email,
+            // Post user data to the API
+            await axios.post("http://localhost:3002/users", {
+                username: username.trim(),
+                email: email.trim(),
                 password,
                 userType,
             });
-
-            console.log("Registration successful:", response.data);
-            // Redirect to login or another page on success
+            
+            setSuccess("Registration successful!");
+            // Reset form fields
+            setUsername("");
+            setEmail("");
+            setPassword("");
+            setUserType("regular");
         } catch (error) {
             console.error("Registration failed:", error.response?.data);
+            // Handle specific backend errors
             setError(error.response?.data.error || "Registration failed");
         }
     };
@@ -69,6 +85,7 @@ const RegisterPage = () => {
                     </select>
                 </div>
                 {error && <p style={{ color: "red" }}>{error}</p>}
+                {success && <p style={{ color: "green" }}>{success}</p>}
                 <button type="submit">Register</button>
             </form>
         </div>
