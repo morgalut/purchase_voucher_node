@@ -2,7 +2,7 @@
 
 ### `README.md`
 
-```markdown
+
 # Vouchers Purchase System
 
 This project is a REST API-based system for managing the purchase of vouchers. The system allows users to register, log in, purchase vouchers, and view their purchased vouchers. The system distinguishes between regular users and administrative users, with administrative users having additional capabilities, such as creating new vouchers.
@@ -74,12 +74,12 @@ This endpoint registers a new regular user.
 
 - **Regular User Login:**
   ```bash
-  curl -X POST http://localhost:3002/users/login -H "Content-Type: application/json" -d "{\"usernameOrEmail\": \"johndoe\", \"password\": \"password123\"}"
+ 
   ```
 
 - **Admin Login:**
   ```bash
-  curl -X POST http://localhost:3002/users/login -H "Content-Type: application/json" -d "{\"usernameOrEmail\": \"janeadmin@example.com\", \"password\": \"adminpassword\"}"
+  curl -X POST http://localhost:3002/users/login -H "Content-Type: application/json" -d "{\"usernameOrEmail\": \"Morgaluct54@gmail.com\", \"password\": \"123456\"}"
   ```
 
 This endpoint logs in a user and returns a JWT for authentication.

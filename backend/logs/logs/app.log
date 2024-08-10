@@ -12,3 +12,137 @@
 2024-08-08T09:56:43.796Z [error]: Failed to fetch user: User not found
 2024-08-08T09:56:51.628Z [error]: Failed to fetch user: User not found
 2024-08-08T09:58:21.847Z [error]: Username or email already exists.
+2024-08-08T21:17:53.135Z [info]: User created: {"name":"baga","username":"waga","email":"Morgalut54@gmail.com","password":"$2b$10$jJpB2A2maybJLWhxeS79C.4.N6jimJUhMWbiCuHPBwR6NMlUj8mrq","balance":123,"isAdminAssistant":false,"userType":"ordinary","_id":"66b5360165ad700f76846445","__v":0}
+2024-08-08T21:20:23.594Z [error]: Login failed: Invalid username or email
+2024-08-08T21:20:50.923Z [error]: Login failed: Invalid password
+2024-08-08T21:21:05.607Z [error]: Login failed: Invalid password
+2024-08-08T21:21:31.860Z [info]: User created: {"name":"mor","username":"mor","email":"mo@mo.com","password":"$2b$10$TL06xUlSrLz93ImPEF/54eX2uksebxKl8nUs99z17l9mvGwqHoYrq","balance":1,"isAdminAssistant":false,"userType":"executive","_id":"66b536db65ad700f7684644b","__v":0}
+2024-08-08T21:21:45.082Z [error]: Login failed: Invalid password
+2024-08-08T21:35:06.233Z [error]: Login failed: Invalid password
+2024-08-08T21:35:55.872Z [error]: Login failed: Invalid password
+2024-08-08T21:37:23.227Z [error]: Login failed: Invalid password
+2024-08-08T21:37:37.924Z [error]: Login failed: Invalid password
+2024-08-08T21:40:59.386Z [error]: Login failed: Invalid password
+2024-08-08T21:41:05.878Z [error]: Login failed: Invalid password
+2024-08-08T21:41:59.169Z [error]: Login failed: Invalid password
+2024-08-08T21:42:57.145Z [error]: Login failed: Invalid password
+2024-08-08T21:45:46.991Z [error]: Login failed: Invalid password
+2024-08-08T21:45:58.317Z [error]: Login failed: Invalid password
+2024-08-08T21:48:06.048Z [info]: User created: {"name":"baga wwww","username":"ssssss","email":"Mossssrgalut54@gmail.com","password":"$2b$10$COiW2lF9z8PVrOeRNOJn6uCFvJGMPmhifvwBHyRqAxdPWTh4A7.gi","balance":1,"isAdminAssistant":false,"userType":"ordinary","_id":"66b53d16b2c2edea3e25b08a","__v":0}
+2024-08-08T21:48:53.740Z [info]: User created: {"name":"baga wwwwssss","username":"ssssssaaaa","email":"Mossssrgaluccct54@gmail.com","password":"$2b$10$95MXFNI8IHnuBjwXO2A14e9O1Rjas8kY9LW1M3WKsNaW5LroxfE3C","balance":1,"isAdminAssistant":false,"userType":"executive","_id":"66b53d45b2c2edea3e25b08d","__v":0}
+2024-08-08T21:49:18.651Z [info]: User created: {"name":"mor","username":"mor","email":"Mossssrgaluccct54@gmail.com","password":"$2b$10$0L2SGixxUwRhZgTYv9jxveygAjArmlpkiCsxFpQz8SiV2w/ToDyIO","balance":1,"isAdminAssistant":false,"userType":"executive","_id":"66b53d5eb2c2edea3e25b090","__v":0}
+2024-08-08T21:49:30.246Z [error]: Username or email already exists.
+2024-08-08T21:49:36.229Z [info]: User created: {"name":"morss","username":"mors","email":"Mosssssrgaluccct54@gmail.com","password":"$2b$10$zKBjoDJasN5gAvNEGi0zTeHSC2g1L7b/lVLaPcpX2AretLmbNW/4S","balance":1,"isAdminAssistant":false,"userType":"ordinary","_id":"66b53d70b2c2edea3e25b094","__v":0}
+2024-08-08T21:51:45.075Z [info]: User created: {"name":"morssסס","username":"morsס","email":"Mosssssrgccct54@gmail.com","password":"$2b$10$kjRtY8KWHbBduv10NnMybec68HhL6er5EqjuANvrfqJgz1BDfHlqm","balance":1,"isAdminAssistant":true,"userType":"executive","_id":"66b53df1b2c2edea3e25b098","__v":0}
+2024-08-08T21:52:44.427Z [error]: Admin assistant already exists. Only one is allowed.
+2024-08-08T21:52:48.673Z [error]: Admin assistant already exists. Only one is allowed.
+2024-08-08T21:53:02.786Z [error]: Admin assistant already exists. Only one is allowed.
+2024-08-08T21:53:16.858Z [error]: Admin assistant already exists. Only one is allowed.
+2024-08-08T21:53:22.276Z [error]: Admin assistant already exists. Only one is allowed.
+2024-08-08T21:53:27.288Z [info]: User created: {"name":"baga ww","username":"ssssssaaaaa","email":"zx@ds.com","password":"$2b$10$4P/gqyErH6lfUuHlb9AxuuOle8m3y4XiT2rmEsQKAtLBQpOC1AkgK","balance":12,"isAdminAssistant":false,"userType":"ordinary","_id":"66b53e57b2c2edea3e25b0a0","__v":0}
+2024-08-08T21:58:33.946Z [info]: User created: {"name":"baga wwww","username":"ssssss","email":"Mossssrgalut54@gmail.com","password":"$2b$10$3X7Sseb8ywno/Xsq8Hbo9eDYp3/1/pH2KWw.eLItfDykClQXYxoMy","balance":1,"isAdminAssistant":false,"userType":"ordinary","_id":"66b53f89b2c2edea3e25b0a3","__v":0}
+2024-08-08T21:58:44.831Z [info]: User created: {"name":"baסga wwwססw","username":"ssssssסס","email":"Mossssrססgalut54@gmail.com","password":"$2b$10$ICBDu4Q6XL.3FFXzv73WJ.B1xEEJiwUKzX5xUSJmqmtE2aHtFXkeK","balance":1,"isAdminAssistant":false,"userType":"executive","_id":"66b53f94b2c2edea3e25b0a6","__v":0}
+2024-08-08T22:01:07.495Z [info]: User created: {"name":"mor galut","username":"mor","email":"Morgalut54@gmail.com","password":"$2b$10$r7Wi2xZaO0w2aLx3SGcfieN21H5rbqVroozNwwvHoL7j4zHwn9VmC","balance":2,"isAdminAssistant":false,"userType":"executive","_id":"66b54023b2c2edea3e25b0a9","__v":0}
+2024-08-08T22:04:33.986Z [error]: Login failed: Invalid password
+2024-08-08T22:25:07.173Z [error]: Login failed: Invalid password
+2024-08-08T22:27:10.039Z [error]: Login failed: Invalid password
+2024-08-08T22:27:56.502Z [error]: Login failed: Invalid password
+2024-08-08T22:36:04.408Z [error]: Login failed: Invalid password
+2024-08-08T22:36:08.189Z [error]: Login failed: Invalid password
+2024-08-08T22:44:42.048Z [error]: Login failed: Invalid password
+2024-08-09T02:07:37.466Z [info]: All users fetched.
+2024-08-09T02:07:37.486Z [info]: All users fetched.
+2024-08-09T02:16:24.373Z [info]: All users fetched.
+2024-08-09T02:16:24.382Z [info]: All users fetched.
+2024-08-09T02:16:28.382Z [info]: All users fetched.
+2024-08-09T02:16:28.397Z [info]: All users fetched.
+2024-08-09T02:16:33.834Z [info]: All users fetched.
+2024-08-09T02:16:33.842Z [info]: All users fetched.
+2024-08-09T02:43:52.318Z [info]: User created: {"name":"baga","username":"sa","email":"Morsgalut54@gmail.com","password":"$2b$10$.Iv8JT6cZNHw6I6HLcmf5uWMSuTbclvWwdXbccTcMANXVLxjhVthy","balance":123,"isAdminAssistant":false,"userType":"ordinary","_id":"66b58268862169efd655aed8","__v":0}
+2024-08-09T02:43:57.485Z [error]: Username or email already exists.
+2024-08-09T02:44:07.453Z [error]: Username or email already exists.
+2024-08-09T02:44:19.989Z [info]: User created: {"name":"qweqwwqe","username":"sasda","email":"Morsgaludsdst54@gmail.com","password":"$2b$10$mpWWxPYcJSp/S6ndCh969O3wGQLJ7i04Xlwp4PrL4DzWZXMN.r.DK","balance":123,"isAdminAssistant":true,"userType":"executive","_id":"66b58283862169efd655aee0","__v":0}
+2024-08-09T05:31:41.624Z [error]: Login failed: Invalid password
+2024-08-09T05:33:43.857Z [error]: Login failed: Invalid password
+2024-08-09T05:37:07.981Z [error]: Login failed: Invalid password
+2024-08-09T05:41:05.499Z [error]: Login failed: Invalid password
+2024-08-09T05:41:25.831Z [error]: Login failed: Invalid password
+2024-08-09T05:45:39.828Z [error]: Login failed: Invalid password
+2024-08-09T05:46:55.749Z [info]: User created: {"name":"mor","username":"mor","email":"Morsgalut54@gmail.com","password":"$2b$10$nZO5E6GQI8Vm5UCD6kssR.pN8STj1Z05v8xACB6UtW75hlIiFhmZ.","balance":123,"isAdminAssistant":true,"userType":"executive","_id":"66b5ad4ffc0e8ff5a256ae1f","__v":0}
+2024-08-09T05:47:05.991Z [error]: Login failed: Invalid password
+2024-08-09T05:47:55.919Z [error]: Login failed: Invalid password
+2024-08-09T05:48:11.153Z [error]: Login failed: Invalid password for user 'mor'.
+2024-08-09T05:48:23.887Z [info]: All users fetched.
+2024-08-09T05:48:23.902Z [info]: All users fetched.
+2024-08-09T05:52:00.716Z [info]: User created: {"name":"mor","username":"mor","email":"Morsgalut54@gmail.com","password":"$2b$10$LxbZErbu40RJMENEpAlQO.y4joS9CdyDnc3htUXt4ZdFuFDhmiyUG","balance":123,"isAdminAssistant":true,"userType":"executive","_id":"66b5ae8000a72838743ec03e","__v":0}
+2024-08-09T05:52:18.925Z [error]: Login failed: Invalid password for user 'mor'.
+2024-08-09T05:52:45.092Z [error]: Login failed: Invalid password for user 'Morsgalut54@gmail.com'.
+2024-08-09T05:55:27.763Z [error]: Login failed: Invalid password for user 'Morsgalut54@gmail.com'.
+2024-08-09T06:00:20.478Z [error]: Login failed: User 'Morsgalut54@gmail.com' not found.
+2024-08-09T06:01:15.269Z [error]: Login failed: User 'Morsgalut54@gmail.com' not found.
+2024-08-09T06:01:37.740Z [error]: Login failed: Invalid password for user 'mor'.
+2024-08-09T06:01:55.592Z [error]: Login failed: Invalid password for user 'mor'.
+2024-08-09T06:02:58.096Z [error]: Login failed: Invalid password for user 'mor'.
+2024-08-09T06:08:47.487Z [info]: User created: {"name":"baga","username":"xx","email":"Morgsdsdt54@gmail.com","password":"$2b$10$FCkoqoaIhZmL7nLGK40Lv.zYAK/WybvvkWnCbjiF.wCOINI5O1RUe","balance":1,"isAdminAssistant":false,"userType":"ordinary","_id":"66b5b26fe880d45d16792328","__v":0}
+2024-08-09T06:08:58.486Z [error]: Login failed: Invalid password for user 'xx'.
+2024-08-09T06:10:10.118Z [error]: Login failed: Invalid password
+2024-08-09T06:11:21.203Z [error]: Login failed: Invalid password
+2024-08-09T06:12:47.660Z [error]: Login failed: Invalid password
+2024-08-09T06:12:59.404Z [error]: Login failed: Invalid password
+2024-08-09T06:14:54.752Z [error]: Login failed: Invalid password
+2024-08-09T06:16:20.029Z [error]: Login failed: Invalid password
+2024-08-09T21:49:23.575Z [info]: User created: {"name":"mor galut","username":"mor","email":"Morgalut54@gmail.com","password":"$2b$10$pdZDkDNiL8/LMXwDW0tqKuQohPAhYIzpdkxFS/Jj6W14.Hd1xq0rW","balance":1,"isAdminAssistant":true,"userType":"ordinary","_id":"66b68ee30f6611b0e92299fd","__v":0}
+2024-08-09T21:49:41.663Z [error]: Login failed: Invalid password
+2024-08-09T21:49:56.411Z [error]: Login failed: Invalid username or email
+2024-08-09T21:50:34.356Z [error]: Login failed: Invalid username or email
+2024-08-09T21:57:04.589Z [info]: All users fetched.
+2024-08-09T21:57:04.606Z [info]: All users fetched.
+2024-08-09T21:57:52.945Z [info]: All users fetched.
+2024-08-09T21:57:52.952Z [info]: All users fetched.
+2024-08-09T21:57:55.677Z [info]: All users fetched.
+2024-08-09T21:57:55.687Z [info]: All users fetched.
+2024-08-09T21:57:58.781Z [info]: All users fetched.
+2024-08-09T21:57:58.786Z [info]: All users fetched.
+2024-08-09T22:11:20.805Z [info]: User created: {"name":"mor galut","username":"mor","email":"Morgalut54@gmail.com","password":"$2b$10$vspz7kQevkCoxN4K6yOQWOA4J1Ob13rQOCP5IdlWfBxWOYYLkPQS6","balance":2,"isAdminAssistant":true,"userType":"ordinary","_id":"66b6940880cd16f2a8a5586b","__v":0}
+2024-08-09T22:11:37.812Z [error]: Login failed: Invalid password
+2024-08-09T22:14:48.087Z [error]: Login failed: Invalid password
+2024-08-09T22:18:29.435Z [error]: Login failed: Incorrect password
+2024-08-09T22:18:54.829Z [error]: Admin assistant already exists. Only one is allowed.
+2024-08-09T22:19:02.944Z [error]: Username or email already exists.
+2024-08-09T22:19:10.399Z [info]: User created: {"name":"baga","username":"zzz","email":"Morgaluct54@gmail.com","password":"$2b$10$aT7EQ/xFInueKxdChM3O9O6/iXK8zPM/ztAe82./ALthmY919U9ri","balance":1,"isAdminAssistant":false,"userType":"executive","_id":"66b695de8543451d84f5c562","__v":0}
+2024-08-09T22:19:26.560Z [error]: Login failed: User not found
+2024-08-09T22:19:30.787Z [error]: Login failed: Incorrect password
+2024-08-09T22:19:50.246Z [error]: Login failed: Incorrect password
+2024-08-09T22:21:30.676Z [error]: Login failed: Incorrect password
+2024-08-09T22:25:18.526Z [info]: User created: {"name":"John Doe","username":"johndoe","email":"johndoe@example.com","password":"$2b$10$FNdXCaeyq6MPpqKA6Qv0Me.6vdSppeERf6lOCxsXVAv7oBcdg5CZS","balance":1000,"isAdminAssistant":false,"userType":"ordinary","_id":"66b6974e8543451d84f5c569","__v":0}
+2024-08-09T22:29:31.986Z [error]: Login failed due to server error: Incorrect password
+2024-08-09T22:29:44.987Z [error]: Login failed due to server error: Incorrect password
+2024-08-09T22:34:10.658Z [error]: Login failed due to server error: Incorrect password
+2024-08-09T22:34:25.705Z [error]: Login failed due to server error: User not found
+2024-08-09T22:34:48.908Z [error]: Login failed due to server error: Incorrect password
+2024-08-09T22:35:05.809Z [error]: Admin assistant creation failed: Only one admin assistant is allowed.
+2024-08-09T22:35:14.510Z [error]: Admin assistant creation failed: Only one admin assistant is allowed.
+2024-08-09T22:35:21.837Z [info]: User created successfully: {"name":"waga baga","username":"aaa","email":"waga@gmai.com","password":"$2b$10$b5.bRMwRh3ZYl9xv60GBIOlcZirjukCqw3mGbe0YAJaKSxWQB4smi","balance":2,"isAdminAssistant":false,"userType":"executive","_id":"66b699a94c4e47b06af69e74","__v":0}
+2024-08-09T22:35:35.127Z [error]: Login failed due to server error: Incorrect password
+2024-08-09T22:37:40.247Z [error]: Login failed due to server error: Incorrect password
+2024-08-09T22:38:03.313Z [error]: Login failed: No user found with username or email "aaa".
+2024-08-09T22:38:46.182Z [error]: Login failed: No user found with username or email "johndoe".
+2024-08-09T22:38:59.672Z [error]: Login failed: No user found with username or email "johndoe@example.com".
+2024-08-09T22:39:31.674Z [error]: Login failed: No user found with username or email "mor".
+2024-08-09T22:50:07.158Z [info]: All users fetched successfully.
+2024-08-09T22:50:07.173Z [info]: All users fetched successfully.
+2024-08-09T22:50:12.478Z [info]: All users fetched successfully.
+2024-08-09T22:50:12.490Z [info]: All users fetched successfully.
+2024-08-09T22:50:21.550Z [error]: Login failed: No user found with username or email "mor galut".
+2024-08-09T22:50:56.322Z [error]: Login failed: No user found with username or email "mor".
+2024-08-09T22:51:19.354Z [error]: Login failed: No user found with username or email "Morgalut54@gmail.com".
+2024-08-09T23:02:08.178Z [info]: User created successfully: {"name":"mor galut","username":"mor","email":"Morgalut54@gmail.com","password":"$2b$10$acaAgN3CRzlilRU4nJXV6uRUB20mEgCxYsyvVyCreGKQet9pOAro.","balance":2,"isAdminAssistant":true,"userType":"ordinary","_id":"66b69ff0c9480f10cc489374","__v":0}
+2024-08-10T05:57:23.701Z [warn]: Invalid username/email or password
+2024-08-10T05:57:25.280Z [warn]: Invalid username/email or password
+2024-08-10T05:57:37.858Z [warn]: Invalid username/email or password
+2024-08-10T05:58:21.945Z [warn]: Invalid username/email or password
+2024-08-10T06:01:03.763Z [warn]: Invalid username/email or password
+2024-08-10T06:01:51.545Z [warn]: Invalid username/email or password
+2024-08-10T06:08:28.102Z [error]: User creation failed: Invalid user type "manager".
+2024-08-10T06:10:06.353Z [error]: User creation failed due to server error: User validation failed: userType: Path `userType` is required.
+2024-08-10T06:11:06.972Z [error]: User creation failed due to server error: User validation failed: userType: Path `userType` is required.

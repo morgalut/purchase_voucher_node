@@ -1,13 +1,12 @@
 const mongoose = require('mongoose');
 
 const userSchema = new mongoose.Schema({
-  name: { type: String, required: true },
-  username: { type: String, required: true, unique: true }, // Ensure uniqueness
-  email: { type: String, required: true, unique: true }, // Ensure uniqueness
+  username: { type: String, required: true, unique: true },
+  email: { type: String, required: true, unique: true },
   password: { type: String, required: true },
-  balance: { type: Number, required: true },
-  isAdminAssistant: { type: Boolean, default: false },
-  userType: { type: String, enum: ['ordinary', 'executive'], required: true }
+  userType: { type: String, enum: ['manager', 'regular'], required: true },
+}, {
+  timestamps: true,
 });
 
 const User = mongoose.model('User', userSchema);

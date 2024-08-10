@@ -2,16 +2,13 @@ const bcrypt = require('bcrypt');
 const User = require('../models/User');
 
 class UserService {
-    async createUser(name, username, email, password, balance, isAdminAssistant, userType) {
+    async createUser(username, email, password, userType) {
         const hashedPassword = await bcrypt.hash(password, 10); // Hash the password
         const user = new User({
-            name,
             username,
             email,
             password: hashedPassword, // Store the hashed password
-            balance,
-            isAdminAssistant,
-            userType
+            userType // Ensure userType is included
         });
         await user.save();
         return user;
@@ -44,12 +41,26 @@ class UserService {
     }
 
     async loginUser(usernameOrEmail, password) {
-        const user = await User.findOne({ $or: [{ username: usernameOrEmail }, { email: usernameOrEmail }] });
-        if (!user) throw new Error('Invalid username or email');
-        const isMatch = await bcrypt.compare(password, user.password); // Compare passwords
-        if (!isMatch) throw new Error('Invalid password');
+        const user = await User.findOne({
+            $or: [{ username: usernameOrEmail }, { email: usernameOrEmail }]
+        });
+    
+        if (!user) {
+            console.log(`User not found for: ${usernameOrEmail}`);
+            return null;
+        }
+    
+        const isPasswordValid = await bcrypt.compare(password, user.password);
+        if (!isPasswordValid) {
+            console.log(`Password mismatch for user: ${usernameOrEmail}`);
+            return null;
+        }
+    
+        console.log(`User found and password valid for: ${usernameOrEmail}`);
         return user;
     }
-}
+    
+    }
+    
 
 module.exports = new UserService();

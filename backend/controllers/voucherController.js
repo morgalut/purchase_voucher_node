@@ -51,21 +51,12 @@ class VoucherController {
 
     async getAllVouchers(req, res) {
         try {
-            const vouchers = await VoucherService.getAllVouchers();
-            if (vouchers.length === 0) {
-                return res.status(404).json({
-                    message: 'No vouchers found.',
-                    details: 'The vouchers collection is empty.'
-                });
-            }
-            res.status(200).json({
-                message: 'Vouchers retrieved successfully.',
-                vouchers
-            });
+            const vouchers = await VoucherService.getAllVouchers(); // Ensure getAllVouchers exists in VoucherService
+            res.status(200).json(vouchers); // Return the array of vouchers
         } catch (error) {
-            res.status(400).json({
-                error: 'Failed to retrieve vouchers.',
-                details: error.message
+            res.status(500).json({ 
+                error: 'Error fetching vouchers',
+                details: error.message 
             });
         }
     }
