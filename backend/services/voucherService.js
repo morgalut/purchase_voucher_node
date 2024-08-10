@@ -27,9 +27,13 @@
         return voucher;
     }
 
-    async deleteVoucher(id) {
-        await Voucher.findByIdAndDelete(id);
-    }
+// voucherService.js
+async deleteVoucher(id) {
+    const result = await Voucher.findByIdAndDelete(id);
+    if (!result) throw new Error('Voucher not found');
+    return result;
+  }
+  
     }
 
     module.exports = new VoucherService();

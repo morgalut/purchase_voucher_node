@@ -133,6 +133,22 @@ class UserController {
       res.status(500).json({ error: "Logout failed due to server error." });
     }
   }
+  async updateUserBalance(req, res) {
+    const { id } = req.params;
+    const { balance } = req.body;
+    try {
+        const user = await UserService.updateUserBalance(id, balance);
+        if (!user) {
+            logger.warn(`Balance update failed: No user found with ID ${id}`);
+            return res.status(404).json({ error: "User not found." });
+        }
+        logger.info(`User balance updated successfully: ${JSON.stringify(user)}`);
+        res.status(200).json({ message: "Balance updated successfully", user });
+    } catch (error) {
+        logger.error(`Balance update failed due to server error: ${error.message}`);
+        res.status(500).json({ error: "Failed to update balance due to server error." });
+    }
+}
 }
 
 module.exports = new UserController();

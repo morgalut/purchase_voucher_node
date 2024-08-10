@@ -20,6 +20,15 @@ const UserManagementPage = () => {
     setEditingUser(null);
   };
 
+  // Handle the change in balance input field
+  const handleBalanceChange = (e) => {
+    const { value } = e.target;
+    setEditingUser((prevUser) => ({
+      ...prevUser,
+      balance: value === '' ? '' : Number(value), // Convert to number if not empty
+    }));
+  };
+
   return (
     <div>
       <h1>User Management</h1>
@@ -27,7 +36,7 @@ const UserManagementPage = () => {
       <ul>
         {users.map((user) => (
           <li key={user._id}>
-            {user.name} - Balance: ${user.balance}
+            {user.username} - Balance: ${user.balance !== null ? user.balance : 'N/A'}
             <button onClick={() => setEditingUser(user)}>Edit Balance</button>
           </li>
         ))}
@@ -39,8 +48,8 @@ const UserManagementPage = () => {
           <input
             type="number"
             placeholder="Balance"
-            value={editingUser.balance}
-            onChange={(e) => setEditingUser({ ...editingUser, balance: e.target.value })}
+            value={editingUser.balance !== null ? editingUser.balance : ''} // Ensure value is always a number or empty
+            onChange={handleBalanceChange}
           />
           <button onClick={() => handleUpdateBalance(editingUser._id)}>Save Changes</button>
         </div>

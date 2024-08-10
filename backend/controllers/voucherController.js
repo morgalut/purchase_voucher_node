@@ -84,26 +84,28 @@ class VoucherController {
         }
     }
 
-    async deleteVoucher(req, res) {
-        const { id } = req.params;
-        try {
-            const result = await VoucherService.deleteVoucher(id);
-            if (result.deletedCount === 0) {
-                return res.status(404).json({
-                    error: 'Voucher not found.',
-                    details: `No voucher found with ID ${id}.`
-                });
-            }
-            res.status(204).send({
-                message: 'Voucher deleted successfully.'
-            });
-        } catch (error) {
-            res.status(400).json({
-                error: 'Failed to delete voucher.',
-                details: error.message
-            });
-        }
+// voucherController.js
+async deleteVoucher(req, res) {
+    const { id } = req.params;
+    try {
+      const result = await VoucherService.deleteVoucher(id);
+      if (!result) {
+        return res.status(404).json({
+          error: 'Voucher not found.',
+          details: `No voucher found with ID ${id}.`
+        });
+      }
+      res.status(204).send({
+        message: 'Voucher deleted successfully.'
+      });
+    } catch (error) {
+      res.status(400).json({
+        error: 'Failed to delete voucher.',
+        details: error.message
+      });
     }
+  }
+  
 }
 
 module.exports = new VoucherController();

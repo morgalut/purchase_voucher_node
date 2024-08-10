@@ -139,6 +139,19 @@ class UserService {
             throw new Error(`Error updating user balance: ${err.message}`);
         }
     }
+    async updateUserBalance(id, balance) {
+        try {
+            const user = await User.findById(id);
+            if (!user) throw new Error("User not found");
+            user.balance = balance;
+            await user.save();
+            return user;
+        } catch (err) {
+            console.error(`Error updating user balance: ${err.message}`);
+            throw new Error(`Error updating user balance: ${err.message}`);
+        }
+    }
+    
 }
 
 module.exports = new UserService();

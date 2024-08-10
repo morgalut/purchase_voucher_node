@@ -14,5 +14,5 @@ router.get('/purchases', async (req, res) => {
 
 // Route to get all purchased vouchers for a user
 router.get('/purchases/:id', purchaseController.getUserPurchasedVouchers);
-
+router.post('/', purchaseController.purchaseVoucher);
 module.exports = router;

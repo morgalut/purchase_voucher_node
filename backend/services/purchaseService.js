@@ -1,3 +1,4 @@
+// C:\Users\Mor\Desktop\last\backend\services\purchaseService.js
 const PurchasedVoucher = require('../models/PurchasedVoucher');
 const User = require('../models/User');
 const Voucher = require('../models/Voucher');
@@ -17,14 +18,6 @@ class PurchaseService {
     const purchasedVoucher = new PurchasedVoucher({ userId, voucherId });
     await purchasedVoucher.save();
 
-    // Ensure purchasedVouchers array exists
-    if (!user.purchasedVouchers) {
-      user.purchasedVouchers = [];
-    }
-
-    user.purchasedVouchers.push(purchasedVoucher);
-    await user.save();
-
     return purchasedVoucher;
   }
 
@@ -37,6 +30,10 @@ class PurchaseService {
     if (!user) throw new Error('User not found');
 
     return user.purchasedVouchers;
+  }
+
+  async getUserById(userId) {
+    return await User.findById(userId);
   }
 }
 

@@ -1,36 +1,62 @@
-import React, { useState, useEffect } from 'react';
-import { getAllVouchers, purchaseVoucher, getPurchasedVouchers } from '../services/api';
+import React, { useState, useEffect, useCallback } from 'react';
+import { getAllVouchers, purchaseVoucher, getUserById } from '../services/api';
+import { jwtDecode } from 'jwt-decode';
 
 const PurchasePage = () => {
   const [vouchers, setVouchers] = useState([]);
-  const [purchasedVouchers, setPurchasedVouchers] = useState([]);
-  const [userId] = useState(''); // Set this dynamically or from authentication
+  const [userId, setUserId] = useState('');
+  const [balance, setBalance] = useState(0);
 
-  useEffect(() => {
-    fetchVouchers();
-    fetchPurchasedVouchers(userId);
+  const getUserIdFromToken = () => {
+    const token = localStorage.getItem('token');
+    if (token) {
+      const decodedToken = jwtDecode(token);
+      return decodedToken.id;
+    }
+    return null;
+  };
+
+  const fetchVouchers = useCallback(async () => {
+    try {
+      const response = await getAllVouchers();
+      setVouchers(response.data);
+    } catch (error) {
+      console.error('Error fetching vouchers:', error);
+    }
+  }, []);
+
+  const fetchUserBalance = useCallback(async () => {
+    try {
+      const response = await getUserById(userId);
+      setBalance(response.data.balance || 0);
+    } catch (error) {
+      console.error('Error fetching user balance:', error);
+    }
   }, [userId]);
 
-  const fetchVouchers = async () => {
-    const response = await getAllVouchers();
-    setVouchers(response.data);
-  };
-
-  const fetchPurchasedVouchers = async (id) => {
-    console.log('Fetching purchased vouchers for userId:', id);
-    const response = await getPurchasedVouchers(id);
-    setPurchasedVouchers(response.data);
-  };
-  
+  useEffect(() => {
+    const id = getUserIdFromToken();
+    if (id) {
+      setUserId(id);
+      fetchUserBalance();
+    }
+    fetchVouchers();
+  }, [fetchVouchers, fetchUserBalance]);
 
   const handlePurchase = async (voucherId) => {
-    await purchaseVoucher(userId, voucherId);
-    fetchPurchasedVouchers(userId);
+    try {
+      const response = await purchaseVoucher(userId, voucherId);
+      setBalance(prevBalance => prevBalance - response.data.voucherCost);
+      // Optionally update UI or show a success message
+    } catch (error) {
+      console.error('Error purchasing voucher:', error);
+    }
   };
 
   return (
     <div>
       <h1>Purchase Vouchers</h1>
+      <p>Current Balance: ${balance}</p>
 
       <div>
         <h2>Available Vouchers</h2>
@@ -39,17 +65,6 @@ const PurchasePage = () => {
             <li key={voucher._id}>
               {voucher.company} - {voucher.amount} units @ ${voucher.cost} each
               <button onClick={() => handlePurchase(voucher._id)}>Purchase</button>
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      <div>
-        <h2>Your Purchased Vouchers</h2>
-        <ul>
-          {purchasedVouchers.map((pv) => (
-            <li key={pv._id}>
-              {pv.voucherId.company} - {pv.voucherId.amount} units
             </li>
           ))}
         </ul>

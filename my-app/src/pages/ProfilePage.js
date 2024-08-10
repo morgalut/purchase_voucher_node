@@ -1,49 +1,58 @@
-import React, { useState, useEffect } from 'react';
-import { getAllVouchers, getPurchasedVouchers } from '../services/api';
+import React, { useState, useEffect, useCallback } from 'react';
+import { getUserById, getPurchasedVouchers } from '../services/api';
+import { jwtDecode } from 'jwt-decode';
 
 const ProfilePage = () => {
-  const [vouchers, setVouchers] = useState([]);
+  const [userId, setUserId] = useState('');
   const [purchasedVouchers, setPurchasedVouchers] = useState([]);
-  const [userId] = useState(''); // Set this dynamically or from authentication
+  const [balance, setBalance] = useState(0);
+
+  const getUserIdFromToken = () => {
+    const token = localStorage.getItem('token');
+    if (token) {
+      const decodedToken = jwtDecode(token);
+      return decodedToken.id;
+    }
+    return null;
+  };
+
+  const fetchUserData = useCallback(async () => {
+    try {
+      const id = getUserIdFromToken();
+      if (id) {
+        setUserId(id);
+        const userResponse = await getUserById(id);
+        setBalance(userResponse.data.balance || 0);
+
+        const purchasesResponse = await getPurchasedVouchers(id);
+        setPurchasedVouchers(purchasesResponse.data);
+      }
+    } catch (error) {
+      console.error('Error fetching user data:', error);
+    }
+  }, []);
 
   useEffect(() => {
-    fetchVouchers();
-    fetchPurchasedVouchers(userId);
-  }, [userId]);
-
-  const fetchVouchers = async () => {
-    const response = await getAllVouchers();
-    setVouchers(response.data);
-  };
-
-  const fetchPurchasedVouchers = async (id) => {
-    const response = await getPurchasedVouchers(id);
-    setPurchasedVouchers(response.data);
-  };
+    fetchUserData();
+  }, [fetchUserData]);
 
   return (
     <div>
-      <h1>Profile</h1>
+      <h1>User Profile</h1>
+      <p>Balance: ${balance}</p>
 
       <div>
-        <h2>Available Vouchers</h2>
+        <h2>Purchased Vouchers</h2>
         <ul>
-          {vouchers.map((voucher) => (
-            <li key={voucher._id}>
-              {voucher.company} - {voucher.amount} units @ ${voucher.cost} each
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      <div>
-        <h2>Your Purchased Vouchers</h2>
-        <ul>
-          {purchasedVouchers.map((pv) => (
-            <li key={pv._id}>
-              {pv.voucherId.company} - {pv.voucherId.amount} units
-            </li>
-          ))}
+          {purchasedVouchers.length > 0 ? (
+            purchasedVouchers.map((purchase) => (
+              <li key={purchase._id}>
+                {purchase.voucherId.company} - {purchase.voucherId.amount} units @ ${purchase.voucherId.cost} each
+              </li>
+            ))
+          ) : (
+            <p>N/A</p>
+          )}
         </ul>
       </div>
     </div>

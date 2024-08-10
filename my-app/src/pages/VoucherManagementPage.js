@@ -19,6 +19,7 @@ const VoucherManagementPage = () => {
     fetchVouchers();
   }, []);
 
+
   const fetchVouchers = async () => {
     try {
       const response = await getAllVouchers();

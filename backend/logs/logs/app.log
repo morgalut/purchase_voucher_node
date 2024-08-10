@@ -232,3 +232,188 @@
 2024-08-10T11:32:20.702Z [error]: User creation failed: User creation failed due to a duplicate key: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
 2024-08-10T11:41:00.846Z [error]: User creation failed: User creation failed due to a duplicate key: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
 2024-08-10T11:50:46.458Z [error]: User creation failed: User creation failed due to a duplicate key: E11000 duplicate key error collection: NODE.users index: name_1 dup key: { name: null }
+2024-08-10T16:49:38.722Z [info]: All users fetched successfully.
+2024-08-10T16:49:38.736Z [info]: All users fetched successfully.
+2024-08-10T16:49:52.107Z [info]: User created successfully: {"username":"sggg","email":"dsa@mro.com","password":"$2b$10$vOOFU1yUDoRQ5BRzc.jbMOV0eq7fnd4usNlSPaHS7I5ZhZPwtMgQG","userType":"regular","isAdmin":false,"_id":"66b79a30d33610b629f891bb","createdAt":"2024-08-10T16:49:52.101Z","updatedAt":"2024-08-10T16:49:52.101Z","__v":0}
+2024-08-10T16:55:07.004Z [info]: All users fetched successfully.
+2024-08-10T16:55:07.015Z [info]: All users fetched successfully.
+2024-08-10T16:55:12.577Z [info]: User balance updated successfully: {"_id":"66b75b0db379b4c3236a6939","username":"adss","email":"ads@ad.com","password":"$2b$10$az/UpPTTOaQaHYcOpPVtDOayusjb.bsrFHmVuizBflpj/2N3lI8Ea","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:20:29.804Z","updatedAt":"2024-08-10T12:20:29.804Z","__v":0}
+2024-08-10T16:55:12.591Z [info]: All users fetched successfully.
+2024-08-10T16:56:16.789Z [info]: User balance updated successfully: {"Balance":false,"_id":"66b79a30d33610b629f891bb","username":"sggg","email":"dsa@mro.com","password":"$2b$10$vOOFU1yUDoRQ5BRzc.jbMOV0eq7fnd4usNlSPaHS7I5ZhZPwtMgQG","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T16:49:52.101Z","updatedAt":"2024-08-10T16:49:52.101Z","__v":0}
+2024-08-10T16:56:16.801Z [info]: All users fetched successfully.
+2024-08-10T16:57:12.121Z [info]: All users fetched successfully.
+2024-08-10T16:57:12.130Z [info]: All users fetched successfully.
+2024-08-10T16:58:19.551Z [info]: All users fetched successfully.
+2024-08-10T16:58:19.577Z [info]: All users fetched successfully.
+2024-08-10T16:58:21.018Z [info]: All users fetched successfully.
+2024-08-10T16:58:21.024Z [info]: All users fetched successfully.
+2024-08-10T16:58:24.491Z [info]: All users fetched successfully.
+2024-08-10T16:58:24.498Z [info]: All users fetched successfully.
+2024-08-10T16:59:02.009Z [info]: User balance updated successfully: {"Balance":false,"_id":"66b75b0db379b4c3236a6939","username":"adss","email":"ads@ad.com","password":"$2b$10$az/UpPTTOaQaHYcOpPVtDOayusjb.bsrFHmVuizBflpj/2N3lI8Ea","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:20:29.804Z","updatedAt":"2024-08-10T12:20:29.804Z","__v":0}
+2024-08-10T16:59:02.023Z [info]: All users fetched successfully.
+2024-08-10T17:00:35.358Z [info]: All users fetched successfully.
+2024-08-10T17:00:35.364Z [info]: All users fetched successfully.
+2024-08-10T17:00:40.898Z [info]: All users fetched successfully.
+2024-08-10T17:00:40.911Z [info]: All users fetched successfully.
+2024-08-10T17:03:40.167Z [info]: User mor logged in successfully
+2024-08-10T17:03:52.094Z [info]: All users fetched successfully.
+2024-08-10T17:03:52.099Z [info]: All users fetched successfully.
+2024-08-10T17:05:03.359Z [info]: All users fetched successfully.
+2024-08-10T17:05:09.019Z [info]: User balance updated successfully: {"_id":"66b75b0db379b4c3236a6939","username":"adss","email":"ads@ad.com","password":"$2b$10$az/UpPTTOaQaHYcOpPVtDOayusjb.bsrFHmVuizBflpj/2N3lI8Ea","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:20:29.804Z","updatedAt":"2024-08-10T12:20:29.804Z","__v":0,"Balance":false}
+2024-08-10T17:05:09.031Z [info]: All users fetched successfully.
+2024-08-10T17:08:07.506Z [info]: All users fetched successfully.
+2024-08-10T17:08:07.515Z [info]: All users fetched successfully.
+2024-08-10T17:08:09.473Z [info]: All users fetched successfully.
+2024-08-10T17:08:09.482Z [info]: All users fetched successfully.
+2024-08-10T17:11:49.664Z [info]: All users fetched successfully.
+2024-08-10T17:11:49.675Z [info]: All users fetched successfully.
+2024-08-10T17:12:01.449Z [info]: User balance updated successfully: {"balance":222,"_id":"66b75b0db379b4c3236a6939","username":"adss","email":"ads@ad.com","password":"$2b$10$az/UpPTTOaQaHYcOpPVtDOayusjb.bsrFHmVuizBflpj/2N3lI8Ea","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:20:29.804Z","updatedAt":"2024-08-10T17:12:01.443Z","__v":0,"Balance":false}
+2024-08-10T17:12:01.468Z [info]: All users fetched successfully.
+2024-08-10T17:12:05.296Z [info]: User balance updated successfully: {"balance":23,"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:12:05.291Z","__v":0}
+2024-08-10T17:12:05.313Z [info]: All users fetched successfully.
+2024-08-10T17:12:07.681Z [info]: User balance updated successfully: {"balance":55,"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T17:12:07.676Z","__v":0}
+2024-08-10T17:12:07.700Z [info]: All users fetched successfully.
+2024-08-10T17:12:11.077Z [info]: User balance updated successfully: {"balance":342,"_id":"66b79a30d33610b629f891bb","username":"sggg","email":"dsa@mro.com","password":"$2b$10$vOOFU1yUDoRQ5BRzc.jbMOV0eq7fnd4usNlSPaHS7I5ZhZPwtMgQG","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T16:49:52.101Z","updatedAt":"2024-08-10T17:12:11.071Z","__v":0,"Balance":false}
+2024-08-10T17:12:11.096Z [info]: All users fetched successfully.
+2024-08-10T17:12:42.356Z [info]: All users fetched successfully.
+2024-08-10T17:12:46.410Z [info]: All users fetched successfully.
+2024-08-10T17:12:46.417Z [info]: All users fetched successfully.
+2024-08-10T17:12:52.512Z [info]: User balance updated successfully: {"_id":"66b75b0db379b4c3236a6939","username":"adss","email":"ads@ad.com","password":"$2b$10$az/UpPTTOaQaHYcOpPVtDOayusjb.bsrFHmVuizBflpj/2N3lI8Ea","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:20:29.804Z","updatedAt":"2024-08-10T17:12:52.507Z","__v":0,"Balance":false,"balance":22}
+2024-08-10T17:12:52.531Z [info]: All users fetched successfully.
+2024-08-10T17:12:57.972Z [info]: All users fetched successfully.
+2024-08-10T17:12:57.984Z [info]: All users fetched successfully.
+2024-08-10T17:27:51.439Z [info]: All users fetched successfully.
+2024-08-10T17:27:51.458Z [info]: All users fetched successfully.
+2024-08-10T17:28:13.626Z [info]: User mor logged in successfully
+2024-08-10T17:28:15.507Z [info]: All users fetched successfully.
+2024-08-10T17:28:15.531Z [info]: All users fetched successfully.
+2024-08-10T17:28:25.785Z [info]: User mor logged in successfully
+2024-08-10T17:28:31.022Z [info]: All users fetched successfully.
+2024-08-10T17:28:31.043Z [info]: All users fetched successfully.
+2024-08-10T17:34:51.872Z [info]: All users fetched successfully.
+2024-08-10T17:34:51.892Z [info]: User fetched successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:12:05.291Z","__v":0,"balance":23}
+2024-08-10T17:34:51.899Z [info]: All users fetched successfully.
+2024-08-10T17:35:00.864Z [info]: User mor logged in successfully
+2024-08-10T17:35:02.751Z [info]: All users fetched successfully.
+2024-08-10T17:35:02.759Z [info]: User fetched successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:12:05.291Z","__v":0,"balance":23}
+2024-08-10T17:35:02.762Z [info]: All users fetched successfully.
+2024-08-10T17:35:11.501Z [info]: All users fetched successfully.
+2024-08-10T17:35:11.512Z [info]: All users fetched successfully.
+2024-08-10T17:35:13.241Z [info]: All users fetched successfully.
+2024-08-10T17:35:13.253Z [info]: User fetched successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:12:05.291Z","__v":0,"balance":23}
+2024-08-10T17:35:13.256Z [info]: All users fetched successfully.
+2024-08-10T17:35:14.113Z [info]: All users fetched successfully.
+2024-08-10T17:35:14.124Z [info]: All users fetched successfully.
+2024-08-10T17:35:15.195Z [info]: All users fetched successfully.
+2024-08-10T17:35:15.211Z [info]: User fetched successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:12:05.291Z","__v":0,"balance":23}
+2024-08-10T17:35:15.221Z [info]: All users fetched successfully.
+2024-08-10T17:35:19.693Z [info]: All users fetched successfully.
+2024-08-10T17:35:19.702Z [info]: All users fetched successfully.
+2024-08-10T17:35:24.524Z [info]: User balance updated successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:35:24.512Z","__v":0,"balance":233}
+2024-08-10T17:35:24.539Z [info]: All users fetched successfully.
+2024-08-10T17:35:25.749Z [info]: All users fetched successfully.
+2024-08-10T17:35:25.769Z [info]: User fetched successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:35:24.512Z","__v":0,"balance":233}
+2024-08-10T17:35:25.775Z [info]: All users fetched successfully.
+2024-08-10T17:35:29.032Z [info]: All users fetched successfully.
+2024-08-10T17:35:29.044Z [info]: All users fetched successfully.
+2024-08-10T17:36:08.781Z [info]: All users fetched successfully.
+2024-08-10T17:36:08.804Z [info]: User fetched successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:35:24.512Z","__v":0,"balance":233}
+2024-08-10T17:36:08.809Z [info]: All users fetched successfully.
+2024-08-10T17:36:19.923Z [info]: All users fetched successfully.
+2024-08-10T17:36:19.933Z [info]: All users fetched successfully.
+2024-08-10T17:39:20.373Z [info]: All users fetched successfully.
+2024-08-10T17:39:20.394Z [info]: User fetched successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:35:24.512Z","__v":0,"balance":233}
+2024-08-10T17:39:20.401Z [info]: All users fetched successfully.
+2024-08-10T17:39:30.447Z [info]: User mor logged in successfully
+2024-08-10T17:39:32.970Z [info]: All users fetched successfully.
+2024-08-10T17:39:32.989Z [info]: All users fetched successfully.
+2024-08-10T17:39:32.998Z [info]: User fetched successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:35:24.512Z","__v":0,"balance":233}
+2024-08-10T18:40:20.474Z [info]: All users fetched successfully.
+2024-08-10T18:40:20.480Z [info]: All users fetched successfully.
+2024-08-10T18:40:20.525Z [info]: User fetched successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:35:24.512Z","__v":0,"balance":233}
+2024-08-10T18:40:53.368Z [info]: User fetched successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:35:24.512Z","__v":0,"balance":233}
+2024-08-10T18:40:53.385Z [info]: User fetched successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:35:24.512Z","__v":0,"balance":233}
+2024-08-10T18:41:09.359Z [info]: User fetched successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:35:24.512Z","__v":0,"balance":233}
+2024-08-10T18:41:09.364Z [info]: User fetched successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:35:24.512Z","__v":0,"balance":233}
+2024-08-10T18:41:10.353Z [info]: User fetched successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:35:24.512Z","__v":0,"balance":233}
+2024-08-10T18:41:10.359Z [info]: User fetched successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:35:24.512Z","__v":0,"balance":233}
+2024-08-10T18:41:17.572Z [info]: All users fetched successfully.
+2024-08-10T18:41:17.579Z [info]: All users fetched successfully.
+2024-08-10T18:41:17.640Z [info]: User fetched successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:35:24.512Z","__v":0,"balance":233}
+2024-08-10T18:48:14.371Z [info]: User fetched successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:35:24.512Z","__v":0,"balance":233}
+2024-08-10T18:49:22.371Z [info]: User fetched successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:35:24.512Z","__v":0,"balance":233}
+2024-08-10T18:49:26.370Z [info]: User fetched successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:35:24.512Z","__v":0,"balance":233}
+2024-08-10T18:52:37.021Z [info]: All users fetched successfully.
+2024-08-10T18:52:37.036Z [info]: All users fetched successfully.
+2024-08-10T18:52:40.004Z [info]: All users fetched successfully.
+2024-08-10T18:52:40.028Z [info]: User fetched successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:35:24.512Z","__v":0,"balance":233}
+2024-08-10T18:52:40.035Z [info]: All users fetched successfully.
+2024-08-10T18:52:48.990Z [info]: User mor logged in successfully
+2024-08-10T18:52:50.667Z [info]: All users fetched successfully.
+2024-08-10T18:52:50.689Z [info]: User fetched successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:35:24.512Z","__v":0,"balance":233}
+2024-08-10T18:52:50.697Z [info]: All users fetched successfully.
+2024-08-10T18:52:54.160Z [info]: All users fetched successfully.
+2024-08-10T18:52:54.167Z [info]: All users fetched successfully.
+2024-08-10T18:52:54.228Z [info]: User fetched successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:35:24.512Z","__v":0,"balance":233}
+2024-08-10T18:55:49.779Z [info]: All users fetched successfully.
+2024-08-10T18:55:49.786Z [info]: All users fetched successfully.
+2024-08-10T18:55:49.844Z [info]: User fetched successfully: {"_id":"66b75b20b379b4c3236a693c","username":"mor","email":"morgalut54@gmail.com","password":"$2b$10$LUqF2JjEKoSk/ALOR0IcReDB4WUWup9IhRnwDEzw47LucQWXwa7Du","userType":"manager","isAdmin":false,"createdAt":"2024-08-10T12:20:48.266Z","updatedAt":"2024-08-10T17:35:24.512Z","__v":0,"balance":233}
+2024-08-10T18:56:56.400Z [warn]: Invalid username/email or password
+2024-08-10T18:57:13.143Z [info]: User mord logged in successfully
+2024-08-10T18:57:15.766Z [info]: All users fetched successfully.
+2024-08-10T18:57:15.780Z [info]: All users fetched successfully.
+2024-08-10T18:57:15.789Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T17:12:07.676Z","__v":0,"balance":55}
+2024-08-10T19:02:33.028Z [info]: All users fetched successfully.
+2024-08-10T19:02:33.055Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T17:12:07.676Z","__v":0,"balance":55}
+2024-08-10T19:02:33.061Z [info]: All users fetched successfully.
+2024-08-10T19:02:39.245Z [info]: All users fetched successfully.
+2024-08-10T19:02:39.277Z [info]: All users fetched successfully.
+2024-08-10T19:02:41.261Z [info]: All users fetched successfully.
+2024-08-10T19:02:41.301Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T17:12:07.676Z","__v":0,"balance":55}
+2024-08-10T19:02:41.306Z [info]: All users fetched successfully.
+2024-08-10T19:30:46.492Z [info]: All users fetched successfully.
+2024-08-10T19:30:46.500Z [info]: All users fetched successfully.
+2024-08-10T19:30:46.562Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T17:12:07.676Z","__v":0,"balance":55}
+2024-08-10T19:34:13.317Z [info]: All users fetched successfully.
+2024-08-10T19:34:13.327Z [info]: All users fetched successfully.
+2024-08-10T19:34:15.161Z [info]: All users fetched successfully.
+2024-08-10T19:34:15.178Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T17:12:07.676Z","__v":0,"balance":55}
+2024-08-10T19:34:15.184Z [info]: All users fetched successfully.
+2024-08-10T19:43:13.359Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T17:12:07.676Z","__v":0,"balance":55}
+2024-08-10T19:43:13.368Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T17:12:07.676Z","__v":0,"balance":55}
+2024-08-10T19:43:29.372Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T17:12:07.676Z","__v":0,"balance":55}
+2024-08-10T19:43:42.378Z [info]: All users fetched successfully.
+2024-08-10T19:43:42.410Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T17:12:07.676Z","__v":0,"balance":55}
+2024-08-10T19:43:42.427Z [info]: All users fetched successfully.
+2024-08-10T19:43:47.147Z [info]: All users fetched successfully.
+2024-08-10T19:43:47.161Z [info]: All users fetched successfully.
+2024-08-10T19:43:47.201Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T17:12:07.676Z","__v":0,"balance":55}
+2024-08-10T19:43:51.606Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T19:43:48.930Z","__v":0,"balance":5}
+2024-08-10T19:43:51.618Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T19:43:48.930Z","__v":0,"balance":5}
+2024-08-10T19:43:54.491Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T19:43:48.930Z","__v":0,"balance":5}
+2024-08-10T19:43:54.498Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T19:43:48.930Z","__v":0,"balance":5}
+2024-08-10T19:44:34.305Z [info]: All users fetched successfully.
+2024-08-10T19:44:34.329Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T19:43:48.930Z","__v":0,"balance":5}
+2024-08-10T19:44:34.340Z [info]: All users fetched successfully.
+2024-08-10T19:44:35.479Z [info]: All users fetched successfully.
+2024-08-10T19:44:35.487Z [info]: All users fetched successfully.
+2024-08-10T19:44:36.650Z [info]: All users fetched successfully.
+2024-08-10T19:44:36.669Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T19:43:48.930Z","__v":0,"balance":5}
+2024-08-10T19:44:36.676Z [info]: All users fetched successfully.
+2024-08-10T19:44:39.164Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T19:43:48.930Z","__v":0,"balance":5}
+2024-08-10T19:44:39.176Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T19:43:48.930Z","__v":0,"balance":5}
+2024-08-10T19:44:39.926Z [info]: All users fetched successfully.
+2024-08-10T19:44:39.946Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T19:43:48.930Z","__v":0,"balance":5}
+2024-08-10T19:44:39.952Z [info]: All users fetched successfully.
+2024-08-10T19:44:40.756Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T19:43:48.930Z","__v":0,"balance":5}
+2024-08-10T19:44:40.769Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T19:43:48.930Z","__v":0,"balance":5}
+2024-08-10T19:44:41.873Z [info]: All users fetched successfully.
+2024-08-10T19:44:41.916Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T19:43:48.930Z","__v":0,"balance":5}
+2024-08-10T19:44:41.933Z [info]: All users fetched successfully.
+2024-08-10T19:44:44.794Z [info]: All users fetched successfully.
+2024-08-10T19:44:44.800Z [info]: All users fetched successfully.
+2024-08-10T19:44:44.850Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T19:43:48.930Z","__v":0,"balance":5}
+2024-08-10T19:44:47.504Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T19:43:48.930Z","__v":0,"balance":5}
+2024-08-10T19:44:47.511Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T19:43:48.930Z","__v":0,"balance":5}
+2024-08-10T19:44:51.155Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T19:43:48.930Z","__v":0,"balance":5}
+2024-08-10T19:44:51.160Z [info]: User fetched successfully: {"_id":"66b75b35b379b4c3236a693f","username":"mord","email":"mo@mo.com","password":"$2b$10$kY4PRa7HoVH3TiUdNhskue5Volzon3eDdlSEQgiqNJ8/cY3ALUncC","userType":"regular","isAdmin":false,"createdAt":"2024-08-10T12:21:09.662Z","updatedAt":"2024-08-10T19:43:48.930Z","__v":0,"balance":5}
